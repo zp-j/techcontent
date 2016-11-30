@@ -18,11 +18,11 @@ CDN 的全称是 Content Delivery Network，即内容分发网络。CDN通过在
 
 CNAME(Canonical Name record)，通常是别名指向。例如，假设用户自定义加速域名为www.abc.com，用户配置完成后网站加速里给出的CDN服务域名为www.abc.com.mschcdn.com。用户需要在 域名托管服务商那里将www.abc.com对应的A记录删除，添加域名的CNAME记录为www.abc.com.mschcdn.com。这样，用户访问www.abc.com时会去获取www.abc.com.mschcdn.com解析出的加速节点的IP地址记录。
 
-### **CDN流量和回原流量关系**
+### **CDN流量和回源流量关系**
 
 - CDN流量表示缓存命中
     
-- 回原流量表示MISS部分 
+- 回源流量表示MISS部分 
 
 ### **影响缓存命中率的因素有哪些？**
 
